@@ -1,11 +1,18 @@
 package com.example.alllabstrue;
 
+import com.google.firebase.database.IgnoreExtraProperties;
+
+@IgnoreExtraProperties
 public class User {
     private String name;
     private String email;
-    private Integer password;
+    private String password;
 
-    public User(String name, String email, Integer password) {
+    public User(){
+
+    }
+
+    public User(String name, String email, String password) {
         this.name = name;
         this.email = email;
         this.password = password;
@@ -19,7 +26,7 @@ public class User {
         return email;
     }
 
-    public Integer getPassword() {
+    public String getPassword() {
         return password;
     }
 
@@ -31,7 +38,7 @@ public class User {
         this.email = email;
     }
 
-    public void setPassword(Integer password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
