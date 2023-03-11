@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "408550256484",
+    "firebase_url": "https://lab4-56b62-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lab4-56b62",
+    "storage_bucket": "lab4-56b62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408550256484:android:e735f7988d038e8fcc9471",
+        "android_client_info": {
+          "package_name": "com.example.alllabstrue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408550256484-46702enh38kfpo09govkb2f1mt4gmoii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfM8skHx4eXr3kYQAh-HPf2ahspUQiyD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408550256484-46702enh38kfpo09govkb2f1mt4gmoii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
